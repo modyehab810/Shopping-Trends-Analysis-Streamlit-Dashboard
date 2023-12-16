@@ -94,7 +94,7 @@ def run():
             options=['Home', 'Products', "Locations"],
             icons=['house-fill', 'person-circle', "map-fill"],
             menu_icon='chat-text-fill',
-            default_index=2,
+            default_index=0,
             styles={
                 "container": {"padding": "5!important", "background-color": '#000'},
                 "icon": {"color": "white", "font-size": "20px"},
