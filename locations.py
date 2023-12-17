@@ -157,7 +157,7 @@ def create_location_category(the_df):
             "family": "tahoma",
             "size": 13,
         },
-        hovertemplate="State: %{label}<br>Popularity (%): %{value:.0f}%",
+        hovertemplate="%{label}<br>Popularity (%): %{value:.0f}%",
     )
 
     return fig
@@ -171,7 +171,7 @@ def create_top3_review(the_df):
                  template="plotly_dark",
                  text_auto="0.1f",
                  labels={
-                     "value": "Popularity (%)", "Subscription_Status": "Subscription Status"},
+                     "value": "AVG Rating", "Subscription_Status": "Subscription Status"},
                  title="\t\tTop 3 States By Review Rating",
                  )
 
