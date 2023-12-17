@@ -4,11 +4,6 @@ import numpy as np
 import plotly.express as px
 import streamlit as st
 from streamlit.components.v1 import html
-import streamlit_option_menu
-import warnings
-import os
-from PIL import Image
-from time import sleep
 
 
 def products_header():
@@ -51,7 +46,7 @@ def create_products_chart(the_df):
                  x=top_10_products.index,
                  y=(top_10_products / sum(top_10_products)) * 100,
                  color=top_10_products.index,
-                 color_discrete_sequence=["#E64848"],
+                 color_discrete_sequence=["#FF0060"],
                  template="plotly_dark",
                  text=top_10_products.apply(
                      lambda x: f"{ (x / sum(top_10_products)) * 100:0.0f}%"),
@@ -80,7 +75,7 @@ def create_products_chart(the_df):
             "size": 17,
             "color": "#fff"
         },
-        hovertemplate="Product: %{y}<br>Popularity (%): %{x:.0f}%",
+        hovertemplate="Product: %{x}<br>Popularity (%): %{y:.1f}%",
     )
 
     return fig
@@ -134,11 +129,10 @@ def category_via_season_chart(the_df):
                   template="plotly_dark",
                   labels={"value": "Popularity", "index": "Season"},
                   color_discrete_sequence=[
-                      "#ADA2FF", "#C0DEFF", "#FCDDB0", "#FF9F9F", "#EDD2F3"],
+                      "#ADA2FF", "#C0DEFF", "#FCDDB0", "#FF0060", "#EDD2F3"],
                   title="\t\tThe Frequency of Category Via Seasons",
                   height=565,
-                  markers="o"
-
+                  markers="o",
                   )
 
     fig.update_layout(title={
@@ -149,7 +143,7 @@ def category_via_season_chart(the_df):
     }
     )
     fig.update_traces(
-        hovertemplate="Category: %{x}<br>Popularity: %{y}",
+        hovertemplate="%{x}<br>Popularity: %{y}",
         marker_size=10)
 
     return fig
