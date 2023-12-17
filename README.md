@@ -1,14 +1,14 @@
 # Customers-ShoppingTrends-Analysis-Streamlit-Dashboard
 
 # Home Page
-![image](https://github.com/modyehab810/Shopping-Trends-Analysis-Streamlit-Dashboard/assets/114261123/1fbb4143-722f-4c82-86b8-3c8e19a2792c)
+![image](https://github.com/modyehab810/Shopping-Trends-Analysis-Streamlit-Dashboard/assets/114261123/0eb506be-7a9b-41a5-9d7a-2615bb0e1e2a)
 
 # Products PAge
-![image](https://github.com/modyehab810/Shopping-Trends-Analysis-Streamlit-Dashboard/assets/114261123/ff1a5cc9-ad77-4bd8-a530-663db5283980)
+![image](https://github.com/modyehab810/Shopping-Trends-Analysis-Streamlit-Dashboard/assets/114261123/c598aaaa-21c0-4df8-8d0d-c9d1cdb404d1)
 
 # Locations Page
-![image](https://github.com/modyehab810/Shopping-Trends-Analysis-Streamlit-Dashboard/assets/114261123/54c1ae48-98f0-4a1d-991f-69cf35bb1ce8)
-![image](https://github.com/modyehab810/Shopping-Trends-Analysis-Streamlit-Dashboard/assets/114261123/78266eb9-32af-4149-9a85-746b777793c2)
+![image](https://github.com/modyehab810/Shopping-Trends-Analysis-Streamlit-Dashboard/assets/114261123/a8eaf791-8212-43aa-a2a0-d0ea5205a4f0)
+![image](https://github.com/modyehab810/Shopping-Trends-Analysis-Streamlit-Dashboard/assets/114261123/fa05c164-1e2b-4a08-8a15-e72d8e394180)
 
 
 
