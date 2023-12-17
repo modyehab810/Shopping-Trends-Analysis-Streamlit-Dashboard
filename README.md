@@ -8,7 +8,8 @@
 
 # Locations Page
 ![image](https://github.com/modyehab810/Shopping-Trends-Analysis-Streamlit-Dashboard/assets/114261123/54c1ae48-98f0-4a1d-991f-69cf35bb1ce8)
-![Uploading image.png…]()
+![image](https://github.com/modyehab810/Shopping-Trends-Analysis-Streamlit-Dashboard/assets/114261123/78266eb9-32af-4149-9a85-746b777793c2)
+
 
 
 
