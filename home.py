@@ -82,7 +82,7 @@ def create_gender_chart(the_df):
     gender = the_df["Gender"].value_counts()
     fig = px.pie(names=gender.index,
                  values=gender,
-                 color_discrete_sequence=["#FF6969", "#03C988"],
+                 color_discrete_sequence=["#FF0060", "#03C988"],
                  template="plotly_dark",
                  title="\t\tThe Freuqency of Gender",
                  hole=0.4,
@@ -97,7 +97,7 @@ def create_gender_chart(the_df):
             "size": 16,
             "color": "#fff"
         },
-        hovertemplate="Category: %{label}<br>Popularity (%): %{percent}",
+        hovertemplate="Gender: %{label}<br>Popularity (%): %{percent}",
         marker=dict(line=dict(color='#000', width=2))
 
     )
