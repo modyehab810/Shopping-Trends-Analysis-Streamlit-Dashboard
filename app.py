@@ -58,9 +58,16 @@ def run():
          }
          div.st-emotion-cache-1r6slb0{
             padding: 15px 5px;
-            background-color: #101010;  
+            background-color: #111;  
             border-radius: 5px;
-            border: 2px solid #b84242;
+            border: 3px solid #5E0303;
+            opacity: 0.9;
+         }
+        div.st-emotion-cache-1r6slb0:hover{
+            transition: all 0.5s ease-in-out;
+            background-color: #000;  
+            border: 3px solid red;
+            opacity: 1;
          }
 
          .plot-container.plotly{
@@ -94,12 +101,12 @@ def run():
             options=['Home', 'Products', "Locations"],
             icons=['house-fill', 'person-circle', "map-fill"],
             menu_icon='chat-text-fill',
-            default_index=0,
+            default_index=2,
             styles={
                 "container": {"padding": "5!important", "background-color": '#000'},
                 "icon": {"color": "white", "font-size": "20px"},
                 "nav-link": {"color": "white", "font-size": "18px", "text-align": "left", "margin": "0px", },
-                "nav-link-selected": {"background-color": "#FF4D49"},
+                "nav-link-selected": {"background-color": "#5E0303"},
 
             }
 
