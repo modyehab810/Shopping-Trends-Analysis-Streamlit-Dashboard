@@ -85,6 +85,10 @@ def run():
             margin-right: auto;
             width: 100%;
         }
+        .st-emotion-cache-1v0mbdj{
+
+            display: block !important;
+        }
 
 
     </style>
